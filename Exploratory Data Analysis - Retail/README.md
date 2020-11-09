@@ -10,10 +10,16 @@
 ## Quick Overview on Dataset
    Rather than checking for missing values, dublicate values, scatter plots and feature data types explicitly, I used profiling libaries like DataPrep and Pandas-Profiling. as they are quick and aims to give detailed information about dataset. 
  ### Have a look
-  It shows that there is 8 categorical and 5 numeric features, no missing values, and 17 duplicate rows. At the same time it also showed that Country column is constant, therefore it's just taking up space in our dataset.
+  It shows that there is 8 categorical and 5 numeric features, no missing values, and 17 duplicate rows. At the same time it also showed that **Country** column is constant, therefore it's just taking up space in our dataset. 
   
   <img src='Images/overview.png' width="500" /> <img src='Images/warnings.png' width="500" />
   
+### Heat Map
+  One of the most surprize thing happened here. The correlation between Quantity and Profity is hardly 0.066 which means even if consumer purchase tond of products it's not going to increase the profit in sense. Even after splitting the data by sub-category result remains the same. And fot the postal-code all the values are very close to zero. we can remove it without any hesitation.
+ ![](Images/corr_sample_store.png)
+ 
+ Now we have cleaned data and we are ready build interactive dashboard.
+ 
 ## Dashboard
 I've used **jupyter notebook** and **Voila** to create interactive dashboard. I know it's not as cool as creating by Tablue, but it's also a good compititor and very light to use. And **Heroku** for the deployment. You can click below heroku icon or click [here](https://samplestore101.herokuapp.com) to see the dashboard on your fingertips. It might take 2 to 3 miniutes to load.
 
