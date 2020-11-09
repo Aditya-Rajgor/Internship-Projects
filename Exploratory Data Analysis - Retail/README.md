@@ -21,9 +21,26 @@
  Now we have cleaned data and we are ready build interactive dashboard.
  
 ## Dashboard
-I've used **jupyter notebook** and **Voila** to create interactive dashboard. I know it's not as cool as creating by Tablue, but it's also a good compititor and very light to use. And **Heroku** for the deployment. You can click below heroku icon or click [here](https://samplestore101.herokuapp.com) to see the dashboard on your fingertips. It might take 2 to 3 miniutes to load.
+I've used **jupyter notebook** and **Voila** to create interactive dashboard. I know it's not as cool as creating by Tablue, but it's also a good compititor and very light to use. And **Heroku** for the deployment. You can click below heroku icon or click [here](https://samplestore101.herokuapp.com) to see the dashboard on your fingertips. It might take upto 5 miniutes to load.
 
 [<img src='Images/heroku.svg' width='80' />](https://samplestore101.herokuapp.com)
+
+## Conclusion
+Ares where Demand is greater than the Profit
+   * Central Region
+   * Technology Category
+   * Furniture Category
+   * Art % Furnishing Sub-Category
+   
+Ares with worst performance
+   * Texas State (9% Total loss)
+   * Philadelphia City (5% Total loss)
+   * Tables (6.2% Total loss)
+   
+Best Performance areas
+   * Standard Class as Shipping Mode
+   * West Region (37.82% Profit along with 31.94% Demand)
+   * Phones as Sub-Category
 
 ## Notebooks
 * EDA Notebook
