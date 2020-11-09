@@ -15,7 +15,25 @@
   <img src='Images/overview.png' width="500" /> <img src='Images/warnings.png' width="500" />
   
 ## Dashboard
-I've used **jupyter notebook** and **Voila** to create interactive dashboard. I know it's not as cool as creating by Tablue, but it's also a good compititor and very light to use. And **Heroku** for the deployment. You can click below heroku icon or click [here](https://samplestore101.herokuapp.com) to see the dashboard on your fingertips.
+I've used **jupyter notebook** and **Voila** to create interactive dashboard. I know it's not as cool as creating by Tablue, but it's also a good compititor and very light to use. And **Heroku** for the deployment. You can click below heroku icon or click [here](https://samplestore101.herokuapp.com) to see the dashboard on your fingertips. It might take 2 to 3 miniutes to load.
 
-<img src='Images/heroku.svg' width='80' />
-  
+[<img src='Images/heroku.svg' width='80' />](https://samplestore101.herokuapp.com)
+
+## Notebooks
+* EDA Notebook
+* Dashboard Notebook
+
+## Project Dependencies
+* Jupyter Notebook
+* Python Libraries
+   * Voila
+      * Voila-material
+   * Plotly
+   * Matplotlib
+   * Seaborn
+   * Pandas
+      * Pandas-Profiling
+   * DataPrep
+ * Heroku
+ * and a machine to run all these
+ 
