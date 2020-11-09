@@ -5,7 +5,13 @@
 ![](Images/sample_super_store.png)
 
 ## Table of Contents
-* Quick Overview on Dataset(#quick-overview-on-dataset)
+* [Quick Overview on Dataset](#quick-overview-on-dataset)
+   * [Have a look](#have-a-look)
+   * [Heat Map](#heat-map)
+ * [Dashboard](#dashboard)
+ * [Conclusion](#conclusion)
+ * [Notebooks](#notebooks)
+ * [Project-Dependencies](#project-dependencies)
 
 ## Quick Overview on Dataset
    Rather than checking for missing values, dublicate values, scatter plots and feature data types explicitly, I used profiling libaries like DataPrep and Pandas-Profiling. as they are quick and aims to give detailed information about dataset. 
@@ -41,6 +47,11 @@ Best Performance areas
    * Standard Class as Shipping Mode
    * West Region (37.82% Profit along with 31.94% Demand)
    * Phones as Sub-Category
+   
+**More specific by city(Ex. Los Angeles)**
+As you can see copiers give us heap in profit with very few transactions. On the other hand paper makes high number of transactions. So, what we can do is offer 1 or 2 bundle of paper free on purchase of copier. Obviously people who wants to buy copier will need paper. ;} 
+
+![](Images/los_angeles_ss.png)
 
 ## Notebooks
 * EDA Notebook
