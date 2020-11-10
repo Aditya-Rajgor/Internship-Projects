@@ -1,5 +1,7 @@
 # Exploratory Data Analysis (EDA) on Sample Super Store
 
+## Author-Aditya R.
+
    This project is part of my internship, we have data of world's famous Sample Super Store. Our job is identify weak areas for this store and create interactive dashboard with the help of EDA.
    
 ![](Images/sample_super_store.png)
