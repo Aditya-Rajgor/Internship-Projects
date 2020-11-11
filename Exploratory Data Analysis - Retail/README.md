@@ -56,7 +56,6 @@ As you can see copiers give us heap in profit with very few transactions. On the
 ![](Images/los_angeles_ss.png)
 
 ## Notebooks
-* EDA Notebook
 * [Dashboard Notebook](https://nbviewer.jupyter.org/github/Aditya-Rajgor/Internship-Projects/blob/main/Exploratory%20Data%20Analysis%20-%20Retail/SampleStore_Dashboard.ipynb)
 
 ## Project Dependencies
